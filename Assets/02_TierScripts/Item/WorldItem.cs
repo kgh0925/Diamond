@@ -12,10 +12,10 @@ public enum ItemType
 [Serializable]
 public struct ItemData
 {
-    public ItemType ItemId;
+    public string ItemId;
     public string ItemDisplayName;
-    public int value;
-    public Sprite UI_Image;
+    public ItemType Type;
+    //public Sprite UI_Image;
 }
 public class WorldItem : MonoBehaviour, IInteractable
 {
@@ -36,8 +36,13 @@ public class WorldItem : MonoBehaviour, IInteractable
     public void Interact(PlayerInteract player)
     {
         PlayerInventory Inventory = player.GetComponent<PlayerInventory>();
-        if(Inventory != null)
+        if(Inventory != null )
         {
+            if(!Inventory.TryAddItem(ItemData.ItemId))
+            {
+                Debug.Log("인벤토리 공간이 부족하여 아이템을 주울 수 없습니다.");
+                return;
+            }
             Inventory.AddItem(ItemData, amount);
             gameObject.SetActive(false);
         }

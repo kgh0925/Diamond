@@ -1,16 +1,14 @@
+using System;
 using UnityEngine;
 
-public class ItemCatalogEntry : MonoBehaviour
+[Serializable]
+public struct ItemCatalogEntry
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string Id;
+    public string DisplayName;
+    public int MaxStack;
+    public ItemType Category;
+    public Sprite Icon;
+    public int value;
 }

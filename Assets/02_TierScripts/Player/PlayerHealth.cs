@@ -16,6 +16,8 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     public InputAction Damageable;
     bool IsDead => CurrentHp <= 0;
     AniController animator;
+    [Header("Event Ref")]
+    [SerializeField]PlayerInventory inventory;
     private void Awake()
     {
         
@@ -51,10 +53,12 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     private void OnEnable()
     {
         Damageable.Enable();
+        inventory.Use_Potion += Heal;
     }
     private void OnDisable()
     {
         Damageable.Disable();
+        inventory.Use_Potion -= Heal;
     }
     private void Update()
     {
@@ -81,5 +85,10 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     {
         CurrentHp = Mathf.Max(0, CurrentHp - amount);
         if(animator != null)animator.Hit();
+    }
+
+    public void Heal(int amount)
+    {
+        CurrentHp = Mathf.Min(MaxHp, CurrentHp + amount);
     }
 }
