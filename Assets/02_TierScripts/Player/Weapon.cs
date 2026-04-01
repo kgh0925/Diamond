@@ -18,6 +18,7 @@ public class Weapon : MonoBehaviour
     {
         Mesh = GetComponent<MeshCollider>();
         Target.Clear();
+        
     }
     private void OnEnable()
     {

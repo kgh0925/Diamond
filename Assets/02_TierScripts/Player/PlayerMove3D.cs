@@ -7,6 +7,7 @@ using Unity.VisualScripting;
 
 public class PlayerMove3D : MonoBehaviour
 {
+    
     [Header("사용자 값 입력 후 사용")]
     public float moveSpeed;
     public float jumpPower;
@@ -28,6 +29,8 @@ public class PlayerMove3D : MonoBehaviour
     public InputAction Run;
     [Header("스턴 시 사용 금지 무기")]
     public Weapon weapon;
+    //[Header("인벤토리 오픈 시 키 입력 금지")]
+    //[SerializeField] InventoryUI Inven_UI; 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -35,12 +38,15 @@ public class PlayerMove3D : MonoBehaviour
     }
     private void OnEnable()
     {
+        //Inven_UI.Inventory_Open += Input_Enable_Disable;
         Jump.Enable();
         Move.Enable();
         Run.Enable();
+        
     }
     private void OnDisable()
     {
+        //Inven_UI.Inventory_Open -= Input_Enable_Disable;
         Jump.Disable();
         Move.Disable();
         Run.Disable();
@@ -148,14 +154,27 @@ public class PlayerMove3D : MonoBehaviour
     }
     IEnumerator Stun()
     {
-        Jump.Disable();
-        Move.Disable();
-        Run.Disable();
-        weapon.Attack.Disable();
+        Input_Enable_Disable(false);
         yield return new WaitForSeconds(stundeley);
-        Jump.Enable();
-        Move.Enable();
-        Run.Enable();
-        weapon.Attack.Enable();
+        Input_Enable_Disable(true);
+    }
+
+    private void Input_Enable_Disable(bool Enable)
+    {
+        if(Enable)
+        {
+            Jump.Enable();
+            Move.Enable();
+            Run.Enable();
+            weapon.Attack.Enable();
+        }
+        else
+        {
+            Jump.Disable();
+            Move.Disable();
+            Run.Disable();
+            weapon.Attack.Disable();
+        }
+
     }
 }
