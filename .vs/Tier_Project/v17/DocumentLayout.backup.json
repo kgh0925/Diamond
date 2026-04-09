@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Unity\\Tier_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\player\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\player\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\item\\worlditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|c:\\users\\user\\unity\\tier_project\\assets\\02_tierscripts\\item\\worlditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\item\\worlditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,28 +11,36 @@
       "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\item\\itemslotdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\item\\itemslotdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\player\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\player\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\ui\\inventoryuislot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|c:\\users\\user\\unity\\tier_project\\assets\\02_tierscripts\\shop\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\shop\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\shop\\shopuislot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\shop\\shopuislot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|c:\\users\\user\\unity\\tier_project\\assets\\02_tierscripts\\shop\\shopbuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\shop\\shopbuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|c:\\users\\user\\unity\\tier_project\\assets\\02_tierscripts\\ui\\inventoryuislot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\ui\\inventoryuislot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\ui\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\ui\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\shop\\shopitemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\shop\\shopitemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\item\\iteminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\item\\iteminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\shop\\shopin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\shop\\shopin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|c:\\users\\user\\unity\\tier_project\\assets\\02_tierscripts\\item\\itemcatalogentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\item\\itemcatalogentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|c:\\users\\user\\unity\\tier_project\\assets\\02_tierscripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\player\\playermove3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|solutionrelative:assets\\02_tierscripts\\player\\playermove3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50E4E2EA-368A-ED55-C8BC-4F3D71534A29}|Assembly-CSharp.csproj|C:\\Users\\USER\\Unity\\Tier_Project\\assets\\02_tierscripts\\animation\\anicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,128 +54,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerInteract.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerInteract.cs",
-              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Player\\PlayerInteract.cs",
-              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerInteract.cs",
-              "RelativeToolTip": "Assets\\02_TierScripts\\Player\\PlayerInteract.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T07:06:58.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ItemCatalogEntry.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Item\\ItemCatalogEntry.cs",
-              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Item\\ItemCatalogEntry.cs",
-              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Item\\ItemCatalogEntry.cs",
-              "RelativeToolTip": "Assets\\02_TierScripts\\Item\\ItemCatalogEntry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T04:46:19.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ItemInfo.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Item\\ItemInfo.cs",
-              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Item\\ItemInfo.cs",
-              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Item\\ItemInfo.cs",
-              "RelativeToolTip": "Assets\\02_TierScripts\\Item\\ItemInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T08:32:24.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ItemSlotData.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Item\\ItemSlotData.cs",
-              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Item\\ItemSlotData.cs",
-              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Item\\ItemSlotData.cs",
-              "RelativeToolTip": "Assets\\02_TierScripts\\Item\\ItemSlotData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T01:10:43.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InventoryUISlot.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\UI\\InventoryUISlot.cs",
-              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\UI\\InventoryUISlot.cs",
-              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\UI\\InventoryUISlot.cs",
-              "RelativeToolTip": "Assets\\02_TierScripts\\UI\\InventoryUISlot.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAxwFEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T00:52:46.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InventoryUI.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\UI\\InventoryUI.cs",
-              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\UI\\InventoryUI.cs",
-              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\UI\\InventoryUI.cs",
-              "RelativeToolTip": "Assets\\02_TierScripts\\UI\\InventoryUI.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAkwOoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T10:58:10.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WorldItem.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Item\\WorldItem.cs",
               "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Item\\WorldItem.cs",
               "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Item\\WorldItem.cs",
               "RelativeToolTip": "Assets\\02_TierScripts\\Item\\WorldItem.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA3wCoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwCsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:31:54.64Z",
+              "WhenOpened": "2026-04-09T03:06:01.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "PlayerInteract.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Player\\PlayerInteract.cs",
+              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerInteract.cs",
+              "RelativeToolTip": "Assets\\02_TierScripts\\Player\\PlayerInteract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T03:05:50.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryUISlot.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\UI\\InventoryUISlot.cs",
+              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\UI\\InventoryUISlot.cs",
+              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\UI\\InventoryUISlot.cs",
+              "RelativeToolTip": "Assets\\02_TierScripts\\UI\\InventoryUISlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T02:46:27.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopUISlot.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopUISlot.cs",
+              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Shop\\ShopUISlot.cs",
+              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopUISlot.cs",
+              "RelativeToolTip": "Assets\\02_TierScripts\\Shop\\ShopUISlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T01:14:45.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShopBuy.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopBuy.cs",
+              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Shop\\ShopBuy.cs",
+              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopBuy.cs",
+              "RelativeToolTip": "Assets\\02_TierScripts\\Shop\\ShopBuy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T02:31:29.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopUI.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopUI.cs",
+              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Shop\\ShopUI.cs",
+              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopUI.cs",
+              "RelativeToolTip": "Assets\\02_TierScripts\\Shop\\ShopUI.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswDwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T01:42:14.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerInventory.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerInventory.cs",
               "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Player\\PlayerInventory.cs",
               "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerInventory.cs",
               "RelativeToolTip": "Assets\\02_TierScripts\\Player\\PlayerInventory.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAIwGoAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowFAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T11:28:49.95Z",
+              "WhenOpened": "2026-04-09T01:23:10.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShopItemList.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopItemList.cs",
+              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Shop\\ShopItemList.cs",
+              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopItemList.cs",
+              "RelativeToolTip": "Assets\\02_TierScripts\\Shop\\ShopItemList.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T01:18:31.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Player\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\02_TierScripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Title": "ShopIN.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopIN.cs",
+              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Shop\\ShopIN.cs",
+              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Shop\\ShopIN.cs",
+              "RelativeToolTip": "Assets\\02_TierScripts\\Shop\\ShopIN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T05:51:23.971Z",
+              "WhenOpened": "2026-04-09T01:09:42.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "PlayerMove3D.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerMove3D.cs",
+              "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Player\\PlayerMove3D.cs",
+              "ToolTip": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Player\\PlayerMove3D.cs",
+              "RelativeToolTip": "Assets\\02_TierScripts\\Player\\PlayerMove3D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T01:05:37.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AniController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Unity\\Tier_Project\\Assets\\02_TierScripts\\Animation\\AniController.cs",
               "RelativeDocumentMoniker": "Assets\\02_TierScripts\\Animation\\AniController.cs",

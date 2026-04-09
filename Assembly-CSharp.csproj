@@ -61,11 +61,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\02_TierScripts\Shop\ShopUI.cs" />
+    <Compile Include="Assets\02_TierScripts\Shop\ShopUISlot.cs" />
     <Compile Include="Assets\02_TierScripts\Object\HeartObject.cs" />
     <Compile Include="Assets\02_TierScripts\Player\PlayerInventory.cs" />
     <Compile Include="Assets\02_TierScripts\Camera\CameraSwap.cs" />
     <Compile Include="Assets\02_TierScripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\02_TierScripts\Animation\EnemyController.cs" />
+    <Compile Include="Assets\02_TierScripts\Shop\ShopBuy.cs" />
     <Compile Include="Assets\02_TierScripts\Player\PlayerInteract.cs" />
     <Compile Include="Assets\02_TierScripts\Object\StarArea.cs" />
     <Compile Include="Assets\02_TierScripts\Animation\AttackReset.cs" />
@@ -87,7 +90,9 @@
     <Compile Include="Assets\02_TierScripts\Item\ItemCatalogEntry.cs" />
     <Compile Include="Assets\02_TierScripts\Item\ItemSlotData.cs" />
     <Compile Include="Assets\02_TierScripts\Player\WeaponHitBox.cs" />
+    <Compile Include="Assets\02_TierScripts\Shop\ShopItemList.cs" />
     <Compile Include="Assets\02_TierScripts\Camera\CameraY.cs" />
+    <Compile Include="Assets\02_TierScripts\Shop\ShopIN.cs" />
     <Compile Include="Assets\POLY STYLE - Fantasy Treasure Chest\Fantasy Treasure Chest_URP\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\02_TierScripts\Camera\CameraTransform.cs" />
     <Compile Include="Assets\02_TierScripts\UI\InventoryUISlot.cs" />

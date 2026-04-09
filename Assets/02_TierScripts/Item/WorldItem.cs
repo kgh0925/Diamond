@@ -38,6 +38,12 @@ public class WorldItem : MonoBehaviour, IInteractable
         PlayerInventory Inventory = player.GetComponent<PlayerInventory>();
         if(Inventory != null )
         {
+            if(ItemData.Type == ItemType.Gold)
+            {
+                Inventory.AddItem(ItemData, amount);
+                gameObject.SetActive(false);
+                return;
+            }
             if(!Inventory.TryAddItem(ItemData.ItemId))
             {
                 Debug.Log("인벤토리 공간이 부족하여 아이템을 주울 수 없습니다.");

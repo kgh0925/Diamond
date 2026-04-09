@@ -85,20 +85,8 @@ public class PlayerInventory : MonoBehaviour
         CurrentAmount = TotalAmount;
         for(int i =0;i < inventorySlots.Count;i++)
         {
-            if (inventorySlots[i].ItemId == string.Empty)
-            {
-                if(CurrentAmount <= MaxStack)
-                {
-                    inventorySlots[i] = new InventorySlotData { ItemId = itemid, Amount = CurrentAmount };
-                    CurrentAmount = 0;
-                }
-                else
-                {
-                    inventorySlots[i] = new InventorySlotData { ItemId = itemid, Amount = MaxStack };
-                    CurrentAmount -= MaxStack;
-                }
-            }
-            else if (inventorySlots[i].ItemId == itemid)
+            
+            if (inventorySlots[i].ItemId == itemid)
             {
                 if (inventorySlots[i].Amount == MaxStack) continue;
                 int m_Amount = inventorySlots[i].Amount;
@@ -111,6 +99,19 @@ public class PlayerInventory : MonoBehaviour
                 {
                     inventorySlots[i] = new InventorySlotData { ItemId = itemid, Amount = MaxStack };
                     CurrentAmount -= (MaxStack-m_Amount);
+                }
+            }
+            else if (inventorySlots[i].ItemId == string.Empty)
+            {
+                if (CurrentAmount <= MaxStack)
+                {
+                    inventorySlots[i] = new InventorySlotData { ItemId = itemid, Amount = CurrentAmount };
+                    CurrentAmount = 0;
+                }
+                else
+                {
+                    inventorySlots[i] = new InventorySlotData { ItemId = itemid, Amount = MaxStack };
+                    CurrentAmount -= MaxStack;
                 }
             }
 
@@ -217,5 +218,18 @@ public class PlayerInventory : MonoBehaviour
 
         }
         
+    }
+    public bool BuyItem(string ItemId, int BuyGold)
+    {
+        if(Player_Gold < BuyGold)
+        {
+            return false;
+        }
+        ItemData Item = new ItemData { ItemId = ItemId };
+        AddItem(Item, 1);
+        Player_Gold -= BuyGold;
+        Gold?.Invoke(Player_Gold);
+        return true;
+
     }
 }
